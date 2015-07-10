@@ -1,0 +1,11 @@
+.bundle
+.config
+*.gem
+lib/bundler/man
+pkg
+*.rbc
+rdoc
+spec/reports
+test/tmp
+test/version_tmp
+tmp

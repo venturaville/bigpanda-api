@@ -15,7 +15,7 @@ require 'bigpanda-api'
 
     ENV['BIGPANDA_KEY'] = 'aaaaaaaaaaaaaaaaaaaaa'
     ENV['BIGPANDA_APP_KEY'] = 'bbbbbbbbbbbbbbbbbbbbbbb'
-    bp = BigPanda.new()
+    bp = BigPandaAPI.new()
     data = {
       'status' => 'critical', # ok, critical, warning, acknowledged
       'host' => 'testhost1.test.com', # host / service / application

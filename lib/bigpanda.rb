@@ -3,7 +3,7 @@
 require 'restclient'
 require 'json'
 
-class BigPanda
+class BigPandaAPI
   attr_accessor :raise_errors
   attr_accessor :debug
   class Timeout < RestClient::RequestTimeout

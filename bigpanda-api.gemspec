@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = "bigpanda-api"
-  s.version = "1.0.0"
+  s.version = "1.0.1"
   s.license = 'MIT'
   s.email = "david-vv@nicklay.com"
   s.homepage = "https://github.com/venturaville/bigpanda-api"
